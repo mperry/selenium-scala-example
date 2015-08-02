@@ -1,0 +1,5 @@
+= Scala Selenium with Gradle Minimal Example
+
+This is a minimal example to demonstrate the use of Selenium, Gradle and Scala for testing web sites.  Run the example by typing `gradlew` from the root directory and Gradle will download the specified version and run the tests.  The test results are included in the test reports at `build/reports/tests`.
+
+This project requires Java 1.7+ and Gradle 1.7+ to run.
