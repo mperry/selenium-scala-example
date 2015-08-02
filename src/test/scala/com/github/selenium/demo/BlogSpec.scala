@@ -11,12 +11,8 @@ import org.scalatest.selenium.HtmlUnit
 @RunWith(classOf[JUnitRunner])
 class BlogSpec extends FlatSpec with ShouldMatchers with HtmlUnit {
 
-//	implicit val webDriver: WebDriver = new HtmlUnitDriver
-
-	val host = "http://www.google.com/"
-
 	"The Google home page" should "have the correct title" in {
-		go to (host)
+		go to ("http://www.google.com/")
 		pageTitle should be ("Google")
 	}
 
